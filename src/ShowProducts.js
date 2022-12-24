@@ -56,7 +56,7 @@ let ShowProducts = (props) => {
         <div className="row  row-cols-xl-4 justify-content-center">
           {products.map((i, index) => {
             return (
-              <div key={index} className="col mb-5">
+              <div  className="col mb-5">
                 <div className="card h-100">
                   <img className="card-img-top" src={i.src} />
                   <div className="card-body p-4">
